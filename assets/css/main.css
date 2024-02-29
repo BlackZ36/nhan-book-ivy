@@ -552,7 +552,7 @@ section {
 }
 
 .onfocus .video-play {
-  min-height: 400px;
+  min-height: 500px;
   background: url("../img/onfocus-video-bg.jpg") center center;
   background-size: cover;
 }
