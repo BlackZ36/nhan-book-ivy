@@ -272,7 +272,7 @@ a:hover {
 @media (max-width: 499px) and (min-width: 0px) {
   .home-section {
     background-size: cover;
-    min-height: 1150px;
+    min-height: 1200px;
     overflow: none;
   }
 
@@ -332,7 +332,7 @@ a:hover {
 @media (max-width: 767px) and (min-width: 500px) {
   .home-section {
     background-size: cover;
-    min-height: 1050px;
+    min-height: 1200px;
     overflow: none;
   }
 
