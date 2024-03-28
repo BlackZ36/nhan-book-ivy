@@ -268,10 +268,11 @@ a:hover {
 .home-footer p:nth-child(4) {
   margin-bottom: 25px;
 }
-@media (max-width: 767px) {
+
+@media (max-width: 499px) and (min-width: 0px) {
   .home-section {
     background-size: cover;
-    min-height: 1200px;
+    min-height: 1150px;
     overflow: none;
   }
 
@@ -283,6 +284,8 @@ a:hover {
   .home-left {
     width: 100vw;
     text-align: center;
+    height: auto;
+    padding: 15px 20px 15px 20px;
   }
 
   .home-right {
@@ -325,8 +328,63 @@ a:hover {
     text-align: justify;
   }
 }
-@media (max-width: 479px) {
+
+@media (max-width: 767px) and (min-width: 500px) {
   .home-section {
     background-size: cover;
+    min-height: 1050px;
+    overflow: none;
+  }
+
+  .home-main{
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .home-left {
+    width: 100vw;
+    text-align: center;
+    height: auto;
+  }
+
+  .home-right {
+    width: 100vw;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 350px;
+  }
+
+  .home-right img {
+    width: 200px;
+    height: auto;
+  }
+
+  .home-left .home-title-1 {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .home-left .home-title-2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .home-left .home-title-3 {
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .home-left .content-sau .home-ul {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .home-left .content-sau .home-title-4 {
+    text-align: justify;
+  }
+  .home-left .content-sau .home-title-5 {
+    text-align: justify;
   }
 }
+
