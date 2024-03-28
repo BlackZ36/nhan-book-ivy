@@ -52,13 +52,11 @@ a:hover {
 
 @keyframes pulse {
   0% {
-   
-    box-shadow:  0px 0px 0px 0px rgba(255,255,255,0.7);
+    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.7);
   }
   100% {
-    box-shadow:  0px 0px 15px 20px rgba(255,255,255,0);
+    box-shadow: 0px 0px 15px 20px rgba(255, 255, 255, 0);
   }
-  
 }
 
 /*--------------------------------------------------------------
@@ -169,7 +167,6 @@ a:hover {
   margin: 0;
 }
 .content-sau .home-ul {
-
   font-size: 15px;
   font-weight: 400;
   line-height: 140%;
@@ -221,7 +218,7 @@ a:hover {
   transition: background-color 0.5s;
   background-color: #f68b1e !important;
   color: #fff !important;
-  font-family: 'Geologica';
+  font-family: "Geologica";
   font-weight: 600;
   color: rgb(255, 255, 255);
   width: 300px;
@@ -233,10 +230,10 @@ a:hover {
 
 @keyframes breathing {
   0% {
-    box-shadow: 0px 0px 0px 0px rgba(255,255,255,0.5);
+    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.5);
   }
   100% {
-    box-shadow: 0px 0px 0px 25px rgba(255,255,255,0);
+    box-shadow: 0px 0px 0px 25px rgba(255, 255, 255, 0);
   }
 }
 
@@ -247,7 +244,6 @@ a:hover {
   border-radius: 8px !important;
   border: 2px solid #f68b1e !important;
 }
-
 
 .home-footer {
   width: 100%;
@@ -275,6 +271,58 @@ a:hover {
 @media (max-width: 767px) {
   .home-section {
     background-size: cover;
+    min-height: 1200px;
+    overflow: none;
+  }
+
+  .home-main{
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .home-left {
+    width: 100vw;
+    text-align: center;
+  }
+
+  .home-right {
+    width: 100vw;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 350px;
+  }
+
+  .home-right img {
+    width: 200px;
+    height: auto;
+  }
+
+  .home-left .home-title-1 {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .home-left .home-title-2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .home-left .home-title-3 {
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .home-left .content-sau .home-ul {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .home-left .content-sau .home-title-4 {
+    text-align: justify;
+  }
+  .home-left .content-sau .home-title-5 {
+    text-align: justify;
   }
 }
 @media (max-width: 479px) {
