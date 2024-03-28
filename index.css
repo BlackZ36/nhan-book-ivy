@@ -272,7 +272,7 @@ a:hover {
 @media (max-width: 499px) and (min-width: 0px) {
   .home-section {
     background-size: cover;
-    min-height: 1200px;
+    min-height: 1300px;
     overflow: none;
   }
 
