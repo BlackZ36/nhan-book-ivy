@@ -181,9 +181,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   video.addEventListener('loadeddata', function() {
     console.log('Video đã được tải xong.');
+    alert('Video đã được tải xong.');
   });
 
   video.addEventListener('error', function() {
     console.error('Đã xảy ra lỗi khi tải video.');
+    alert('Đã xảy ra lỗi khi tải video.');
   });
 });
