@@ -718,6 +718,7 @@ section,
 
   .about img{
     position: static;
+    width: 250px;
   }
 
   .about .icon-boxes .col-md-6:nth-child(2) .icon-box,
